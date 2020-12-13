@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T01:59:35.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="5swr0NKjvmV9csGYq_T5" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T02:14:50.194Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="lyF-fMzuq_09kdhzhGx6" version="14.0.1" type="github">
   <diagram id="TYp5_WY34IXTbCEOg1sV" name="Page-1">
     <mxGraphModel dx="1088" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
             <mxGeometry x="348" y="32" width="144" height="45" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="7fts74qfBC5V9xW8lkw7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7fts74qfBC5V9xW8lkw7-2" target="7fts74qfBC5V9xW8lkw7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="User" lucidchartObjectId="5zAWnfMhp8ZF" id="7fts74qfBC5V9xW8lkw7-2">
           <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=11;fontColor=#333333;align=center;spacing=3;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;" vertex="1" parent="1">
             <mxGeometry x="96" y="324" width="48" height="36" as="geometry" />
@@ -51,13 +54,6 @@
         <UserObject label="Read Service" lucidchartObjectId="MAAWaEyvQYaS" id="7fts74qfBC5V9xW8lkw7-5">
           <mxCell style="html=1;overflow=block;whiteSpace=wrap;;whiteSpace=wrap;fontSize=11;fontColor=#333333;align=center;spacing=3;strokeColor=#333333;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;" vertex="1" parent="1">
             <mxGeometry x="264" y="372" width="108" height="72" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" lucidchartObjectId="WAAW.o9zhJws" id="7fts74qfBC5V9xW8lkw7-6">
-          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=11;strokeColor=#333333;strokeOpacity=100;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;;endArrow=block;endFill=1;;exitX=1.013;exitY=0.5;exitPerimeter=0;entryX=-0.006;entryY=0.567;entryPerimeter=0;" edge="1" parent="1" source="7fts74qfBC5V9xW8lkw7-2" target="7fts74qfBC5V9xW8lkw7-5">
-            <mxGeometry width="100" height="100" relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
           </mxCell>
         </UserObject>
         <mxCell id="7fts74qfBC5V9xW8lkw7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.528;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7fts74qfBC5V9xW8lkw7-7" target="7fts74qfBC5V9xW8lkw7-12">
@@ -132,6 +128,15 @@
             <mxGeometry x="500" y="460" width="108" height="72" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="7fts74qfBC5V9xW8lkw7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7fts74qfBC5V9xW8lkw7-30" target="7fts74qfBC5V9xW8lkw7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7fts74qfBC5V9xW8lkw7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7fts74qfBC5V9xW8lkw7-30" target="7fts74qfBC5V9xW8lkw7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7fts74qfBC5V9xW8lkw7-30" value="CDN&lt;br&gt;(cache hot videos)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
