@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T21:54:01.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nIBBW1iO5rNRy2kB8dsV" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-13T21:54:55.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nA7Hh6qzoi1nQVMJPXB0" version="14.0.1" type="github">
   <diagram id="DAcrpO5JwTzXsAMGF_je" name="Page-1">
     <mxGraphModel dx="1088" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,8 +54,21 @@
         <mxCell id="5WKiVLnwviByjjzh-KT3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-19" target="5WKiVLnwviByjjzh-KT3-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-19" target="5WKiVLnwviByjjzh-KT3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5WKiVLnwviByjjzh-KT3-19" value="Internal DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="465" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;exitX=0.6;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-22" target="5WKiVLnwviByjjzh-KT3-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-22" value="Synchronization Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="170" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
