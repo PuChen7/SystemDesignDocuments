@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T20:30:03.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="G7P4KKixWmc4BZWQGKlz" type="github"><diagram id="DAcrpO5JwTzXsAMGF_je">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-13T21:54:01.053Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nIBBW1iO5rNRy2kB8dsV" version="14.0.1" type="github">
+  <diagram id="DAcrpO5JwTzXsAMGF_je" name="Page-1">
+    <mxGraphModel dx="1088" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5WKiVLnwviByjjzh-KT3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-1" target="5WKiVLnwviByjjzh-KT3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.388;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-1" target="5WKiVLnwviByjjzh-KT3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-16" value="modify files in folder" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5WKiVLnwviByjjzh-KT3-15">
+          <mxGeometry x="-0.0655" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-1" value="User" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.067;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-3" target="5WKiVLnwviByjjzh-KT3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-3" value="Download Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-6" target="5WKiVLnwviByjjzh-KT3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-6" value="Metadata&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-7" value="File System" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-8" value="Amazon S3&lt;br&gt;(better than HDFS)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-12" value="chunk service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-13" value="Watcher&lt;br&gt;(for user action)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.037;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-14" target="5WKiVLnwviByjjzh-KT3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-14" value="Folder" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-18" value="Indexer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-19" target="5WKiVLnwviByjjzh-KT3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-19" value="Internal DB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
