@@ -1,11 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T02:40:35.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WY8m0oaJPEx2Wpp5aR5B" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T03:53:54.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="I0Bdvx71nCR_FR96y2zY" version="14.0.1" type="github">
   <diagram id="IcHUOOlB1HasORzAh2ZM" name="Page-1">
     <mxGraphModel dx="1088" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ekXnhp6ViUYrNn_1VhOM-1" target="ekXnhp6ViUYrNn_1VhOM-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-1" value="User A" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="90" y="150" width="70" height="70" as="geometry" />
@@ -24,14 +28,30 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.043;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="261" as="sourcePoint" />
+            <mxPoint x="160" y="170.02999999999997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441.99" y="251" />
+              <mxPoint x="346.99" y="251" />
+              <mxPoint x="346.99" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-64" value="send ACK back to notify &lt;br&gt;Message Delivered" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ekXnhp6ViUYrNn_1VhOM-63">
+          <mxGeometry x="0.4202" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-7.01" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-4" value="Messenger Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="220" width="80" height="80" as="geometry" />
+          <mxGeometry x="445" y="230" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="550" y="220" width="60" height="80" as="geometry" />
+          <mxGeometry x="675" y="230" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-9" value="User" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="510" width="180" height="160" as="geometry" />
+          <mxGeometry x="100" y="510" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-10" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ekXnhp6ViUYrNn_1VhOM-9">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -58,15 +78,6 @@
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-18" value="Name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="ekXnhp6ViUYrNn_1VhOM-16">
-          <mxGeometry x="30" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ekXnhp6ViUYrNn_1VhOM-57" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ekXnhp6ViUYrNn_1VhOM-9">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ekXnhp6ViUYrNn_1VhOM-58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="ekXnhp6ViUYrNn_1VhOM-57">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ekXnhp6ViUYrNn_1VhOM-59" value="Status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="ekXnhp6ViUYrNn_1VhOM-57">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-22" value="Message" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -139,7 +150,19 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekXnhp6ViUYrNn_1VhOM-60" value="Key:value&lt;br&gt;UserID:Connection Object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="275" y="170" width="170" height="50" as="geometry" />
+          <mxGeometry x="400" y="180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ekXnhp6ViUYrNn_1VhOM-65" target="ekXnhp6ViUYrNn_1VhOM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ekXnhp6ViUYrNn_1VhOM-65" target="ekXnhp6ViUYrNn_1VhOM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ekXnhp6ViUYrNn_1VhOM-65" target="ekXnhp6ViUYrNn_1VhOM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ekXnhp6ViUYrNn_1VhOM-65" value="Cache&lt;br&gt;(status. store last time user send or received message)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
