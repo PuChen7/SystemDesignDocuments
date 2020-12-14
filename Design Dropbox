@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-13T21:54:55.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nA7Hh6qzoi1nQVMJPXB0" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T02:17:10.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sFMWWoz7VSIsQPvjbzh7" version="14.0.1" type="github">
   <diagram id="DAcrpO5JwTzXsAMGF_je" name="Page-1">
     <mxGraphModel dx="1088" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,6 +19,9 @@
           <mxGeometry x="50" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5WKiVLnwviByjjzh-KT3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.067;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-3" target="5WKiVLnwviByjjzh-KT3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-3" target="5WKiVLnwviByjjzh-KT3-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5WKiVLnwviByjjzh-KT3-3" value="Download Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -69,6 +72,12 @@
         </mxCell>
         <mxCell id="5WKiVLnwviByjjzh-KT3-22" value="Synchronization Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="630" y="170" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WKiVLnwviByjjzh-KT3-25" target="5WKiVLnwviByjjzh-KT3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WKiVLnwviByjjzh-KT3-25" value="cache&lt;br&gt;(hot chunks)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
