@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T01:21:03.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HgdqwhYD5wzP5b_sBweH" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T01:24:32.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="iFSdjhiJ39-fDnuVWB0J" version="14.0.1" type="github">
   <diagram id="x20G2bfJd7r-tVQ0_omS" name="Page-1">
     <mxGraphModel dx="850" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="742szKPT31FdPGmog6sl-2" value="search request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="70" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="742szKPT31FdPGmog6sl-3" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="530" y="180" width="60" height="80" as="geometry" />
+        <mxCell id="742szKPT31FdPGmog6sl-3" value="Metadata DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="742szKPT31FdPGmog6sl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="742szKPT31FdPGmog6sl-4" target="742szKPT31FdPGmog6sl-5">
           <mxGeometry relative="1" as="geometry" />
@@ -40,17 +40,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="742szKPT31FdPGmog6sl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="742szKPT31FdPGmog6sl-5" target="742szKPT31FdPGmog6sl-3">
+        <mxCell id="742szKPT31FdPGmog6sl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="742szKPT31FdPGmog6sl-5" target="742szKPT31FdPGmog6sl-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="742szKPT31FdPGmog6sl-5" value="Payment Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="450" y="30" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="742szKPT31FdPGmog6sl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="742szKPT31FdPGmog6sl-12" target="742szKPT31FdPGmog6sl-3">
+        <mxCell id="742szKPT31FdPGmog6sl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="742szKPT31FdPGmog6sl-12" target="742szKPT31FdPGmog6sl-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="742szKPT31FdPGmog6sl-12" value="Search Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="260" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="742szKPT31FdPGmog6sl-15" value="Payment DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
